@@ -8,7 +8,7 @@ Aquesta pàgina conté informació de les sales creades i els missatges pendents
 
 Primer un client ha de crear una sala i llavors qualsevol client pot enviar i rebre missatges d'aquella sala si en coneix el nom i la contrasenya.
 
-Els missatges segueixen un ordre LIFO independent de qui els hagi enviat:
+Els missatges segueixen un ordre FIFO independent de qui els hagi enviat:
 
 1. S'envia `"missatge #1"`.
 2. S'envia `"missatge #2"`.
